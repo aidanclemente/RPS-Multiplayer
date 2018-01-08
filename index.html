@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>RPS-MultPlayer</title>
+<!-- Css and Favicon -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> -->
+<!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+</head>
+<body>
+	<header>
+		Rock Paper Scissors
+	</header>
+
+	<div id="playersInfo">
+		<input id="playerName" placeholder="name" type="text" name="playerName">
+		<input id="nameSubmit" type="submit" name="nameSubmit">
+	</div>
+
+	<div id="gameDiv">
+		<div class="row col-sm-4 text-center" id="player1"></div>
+		<div class="row col-sm-4 text-center" id="results"></div>
+		<div class="row col-sm-4 text-center" id="player2"></div>
+	</div>
+
+	<div id="messageDiv">
+		<div id="messageArea"></div>
+		<input type="text" name="message" id="message"></input>
+		<input id="messageSubmit" type="submit" name="messageSubmit">
+	</div>
+
+    <!-- JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

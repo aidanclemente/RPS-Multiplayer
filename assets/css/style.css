@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #3F41DB;
+	text-align: center;
+	padding: 8px;
+	height: 35px;
+	color: #fff;
+	/*border-bottom: 3px #ff0066 solid;*/
+	font-size: 14px;
+	width: 100%;
+}
+
+body {
+	background-color: #ddd;
+}
+
+#playersInfo {
+	text-align: center;
+    margin: 10px;	
+}
+
+#messageDiv {
+	text-align: center;
+}
+
+#message {
+	width: 44%;
+	margin: 10px;
+}
+
+#messageArea {
+	height: 50px;
+	width: 51%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+
+}
+
+#messageSubmit {
+/*	width: 10px;*/
+	border-radius: 5px;
+}
+
+#player1, #results, #player2 {
+	display: inline-block;
+/*	float: left;*/
+	height: 200px;
+    width: 28%;
+    border: 1px solid black;
+    margin: 1.5%;
+}
