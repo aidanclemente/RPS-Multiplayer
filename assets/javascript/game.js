@@ -53,7 +53,7 @@ database.ref().on("value", function(snapshot) {
 //use t/f instead of exists
 if (snapshot.child("player1").exists() && snapshot.child("player2").exists()) {
 
-// Set the variables for highBidder/highPrice equal to the stored values in firebase.
+// Set the variables to equal to the stored values in firebase.
      player1.name = snapshot.val().player1.name;
      player2.name = snapshot.val().player2.name;
 
